@@ -1,0 +1,113 @@
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: #40514e;
+  margin: 0px;
+}
+
+.contact_us {
+  background-color: #eae8e8;
+  padding-left: 15%;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 300px;
+  width: 2000px;
+}
+
+p {
+  line-height: 2;
+}
+
+.second-container-contact {
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+}
+
+.last-container {
+  background-color: #0091ad;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom: 0px;
+  width: 2000px;
+}
+
+.copyright {
+  width: 400px;
+  margin-bottom: 0px;
+}
+
+.facebook {
+  text-decoration: none;
+  color: #40514e;
+}
+
+a.facebook:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 300px;
+  margin-right: 700px;
+  margin-left: 25%;
+}
+
+.facebook-icon {
+  width: 35px;
+  margin-left: 40px;
+}
+
+.contact-text {
+  display: inline-block;
+  margin-right: 240px;
+  position: absolute;
+  top: 98px;
+  left: 50px;
+  width: 332px;
+}
+
+.contact-form {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  width: 500px;
+}
+
+.ct-container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.red {
+  color: red;
+  padding-left: 5px;
+}
+
+.submit {
+  background-color: #eae8e8;
+  color: #40514e;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  height: 45px;
+  line-height: 45px;
+  width: 98px;
+  text-decoration: none;
+  text-align: center;
+  text-indent: 0px;
+  display: inline-block;
+}
+
+.submit:hover {
+  background-color: #0091ad;
+  color: white;
+}

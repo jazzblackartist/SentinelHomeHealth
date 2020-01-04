@@ -1,0 +1,109 @@
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: #40514e;
+  margin: 0px;
+}
+
+.employment {
+  background-color: #eae8e8;
+  padding-left: 15%;
+  margin-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 300px;
+  width: 2000px;
+}
+
+p {
+  line-height: 2;
+  padding-bottom: 60px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.second-container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.last-container {
+  background-color: #0091ad;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom: -600px;
+  width: 2000px;
+}
+
+.copyright {
+  width: 400px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.facebook {
+  text-decoration: none;
+  color: #40514e;
+}
+
+a.facebook:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 300px;
+  margin-right: 700px;
+  margin-left: 25%;
+}
+
+.facebook-icon {
+  width: 35px;
+  margin-left: 40px;
+}
+
+.red {
+  color: red;
+  padding-left: 5px;
+}
+
+.resume {
+  overflow: visible;
+}
+
+.resume-container {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.submit {
+  background-color: #eae8e8;
+  color: #40514e;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  height: 45px;
+  line-height: 45px;
+  width: 98px;
+  text-decoration: none;
+  text-align: center;
+  text-indent: 0px;
+  display: inline-block;
+}
+
+.submit:hover {
+  background-color: #0091ad;
+  color: white;
+}
+
+.submit:active {
+  position: relative;
+  top: 1px;
+}
