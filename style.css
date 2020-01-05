@@ -12,7 +12,8 @@ body {
   padding-bottom: 20px;
   padding-right: 300px;
   width: 2000px;
-  height:88px;
+  height:550px;
+  position: relative;
 }
 
 p {
@@ -23,13 +24,53 @@ p {
   margin-left: 15%;
   margin-right: 15%;
 }
+.third-container{
+  display: inline-block;
+  width: 1200px;
+  background-color: #eae8e8;
+  margin-top: 90px;
 
+}
+.info{
+  width: 1200px;
+  display: inline-block;
+  padding-right: 0;
+  padding-top: 90px;
+
+}
+.image1{
+  display: inline-block;
+  margin:50px;
+}
+.image2{
+  display: inline-block;
+  margin:50px;
+}
+.image3{
+  display: inline-block;
+  margin:50px;
+
+}
+.image4{
+  display: inline-block;
+  margin:40px;
+}
+.care{
+  width: 676px;
+  position: absolute;
+}
+.home-text{
+  width: 600px;
+  position: absolute;
+  left: 1043px;
+  top: 80px;
+}
 .last-container {
   background-color: #0091ad;
   padding-top: 15px;
   padding-bottom: 15px;
   position: absolute;
-  bottom: 0px;
+  bottom: -1000px;
   width: 2000px;
 }
 

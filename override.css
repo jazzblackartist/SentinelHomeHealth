@@ -10,3 +10,25 @@
   margin-left: 25%;
   margin-right: 25%;
 }
+
+.card {
+  margin: 50px !important;
+  display: inline-block !important;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0091ad;
+  border-color: #0091ad;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.btn:hover {
+  background-color: #057186;
+  opacity: 80%;
+  color: white;
+}
