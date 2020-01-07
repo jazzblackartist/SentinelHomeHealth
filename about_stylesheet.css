@@ -1,7 +1,7 @@
 body {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   color: #40514e;
-  margin: 0px;
+  margin: 0;
 }
 
 .second-container {
@@ -21,27 +21,20 @@ p {
 }
 
 .about {
-  background-color: #eae8e8;
-  padding-left: 15%;
-  margin-bottom: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 300px;
-  width: 2000px;
+  padding:30px;
+  text-align:center;
+  margin-bottom: 100px;
 }
 
 .last-container {
   background-color: #0091ad;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: absolute;
-  bottom: 0px;
-  width: 2000px;
+text-align:center;
+padding:10px;
+margin-top:170px;
 }
 
 .copyright {
-  width: 400px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .facebook {
@@ -54,9 +47,9 @@ a.facebook:hover{
 }
 
 .logo {
-  width: 300px;
-  margin-right: 700px;
-  margin-left: 25%;
+  width: auto;
+      max-width: 40%;
+      height: auto;
 }
 .facebook-icon{
   width: 35px;

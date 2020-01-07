@@ -32,3 +32,28 @@
   opacity: 80%;
   color: white;
 }
+.info{
+  width: auto !important;
+    max-width: 100% !important;
+    height: auto!important;
+    display: inline-block;
+    padding-right: 0;
+    padding-top: 90px;
+}
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.border{
+background-color: #eae8e8;
+padding:15px;
+height: 86px;
+
+}

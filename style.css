@@ -3,17 +3,21 @@ body {
   color: #40514e;
   margin: 0px;
 }
+.border{
+background-color: #eae8e8;
+padding:15px;
+height: 86px;
 
+}
+.banner{
+  position:relative;
+  margin-bottom:150px;
+}
 .home {
-  background-color: #eae8e8;
-  padding-left: 15%;
-  margin-bottom: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 300px;
-  width: 2000px;
-  height:550px;
-  position: relative;
+
+  float:left;
+width:60%;
+padding:0 20px;
 }
 
 p {
@@ -21,23 +25,29 @@ p {
 }
 
 .second-container {
-  margin-left: 15%;
-  margin-right: 15%;
+  width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+.border-text{
+  color: white;
+  position: absolute;
+  top:656px;
+  left: 137px;
+  font-size: 50px;
+
 }
 .third-container{
   display: inline-block;
-  width: 1200px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
   background-color: #eae8e8;
   margin-top: 90px;
-
+  margin: 50px !important;
+    display: inline-block !important;
 }
-.info{
-  width: 1200px;
-  display: inline-block;
-  padding-right: 0;
-  padding-top: 90px;
 
-}
 .image1{
   display: inline-block;
   margin:50px;
@@ -56,32 +66,36 @@ p {
   margin:40px;
 }
 .care{
-  width: 676px;
-  position: absolute;
+
+  display: inline-block;
+float: left;
+width: 60%;
+padding: 0 20px;
+margin-left: 10%;
 }
 .home-text{
   width: 600px;
-  position: absolute;
+  display: inline-block;
   left: 1043px;
   top: 80px;
 }
+.home-container{
+  display: inline-block;
+}
 .last-container {
   background-color: #0091ad;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  position: absolute;
-  bottom: -1000px;
-  width: 2000px;
+text-align:center;
+padding:10px;
+margin-top:150px;
 }
 
 .copyright {
-  width: 400px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .facebook {
-  text-decoration: none;
-  color: #40514e;
+text-decoration: none;
+color: #40514e;
 }
 
 a.facebook:hover {
@@ -90,9 +104,9 @@ a.facebook:hover {
 }
 
 .logo {
-  width: 300px;
-  margin-right: 700px;
-  margin-left: 25%;
+  width: auto;
+      max-width: 40%;
+      height: auto;
 }
 
 .facebook-icon {
