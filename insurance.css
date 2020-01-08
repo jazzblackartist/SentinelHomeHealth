@@ -4,26 +4,41 @@ body {
   margin: 0px;
 }
 
-.insurance {
-  padding:30px;
-  text-align:center;
-  margin-bottom: 100px;
-}
-
 p {
   line-height: 2;
 }
 
+/*This is the style of the logo*/
+.logo {
+  width: auto;
+  max-width: 40%;
+  height: auto;
+}
+
+/*This is the social icon*/
+.facebook-icon {
+  width: 35px;
+  margin-left: 40px;
+}
+
+/*This is the style of the main content*/
 .second-container {
   margin-left: 15%;
   margin-right: 15%;
 }
 
+.insurance {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/*This is the style of the footer*/
 .last-container {
   background-color: #0091ad;
-text-align:center;
-padding:10px;
-margin-top:657px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 430px;
 }
 
 .copyright {
@@ -38,16 +53,4 @@ margin-top:657px;
 a.facebook:hover {
   text-decoration: none;
   color: white;
-}
-
-
-.logo {
-  width: auto;
-      max-width: 40%;
-      height: auto;
-}
-
-.facebook-icon {
-  width: 35px;
-  margin-left: 40px;
 }

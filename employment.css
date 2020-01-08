@@ -4,12 +4,6 @@ body {
   margin: 0px;
 }
 
-.employment {
-  padding:30px;
-  text-align:center;
-  margin-bottom: 100px;
-}
-
 p {
   line-height: 2;
   padding-bottom: 60px;
@@ -17,45 +11,32 @@ p {
   margin-right: 25%;
 }
 
-.second-container {
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.last-container {
-  background-color: #0091ad;
-text-align:center;
-padding:10px;
-margin-top:170px;
-}
-
-.copyright {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.facebook {
-  text-decoration: none;
-  color: #40514e;
-}
-
-a.facebook:hover {
-  text-decoration: none;
-  color: white;
-}
-
+/*This is the style for the logo*/
 .logo {
   width: auto;
-      max-width: 40%;
-      height: auto;
+  max-width: 40%;
+  height: auto;
 }
 
+/*This is the style for the social icon*/
 .facebook-icon {
   width: 35px;
   margin-left: 40px;
 }
 
-.red {
+/* The main style of the site*/
+.second-container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.employment {
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+red {
   color: red;
   padding-left: 5px;
 }
@@ -72,8 +53,9 @@ a.facebook:hover {
 }
 
 .submit {
-  background-color: #eae8e8;
-  color: #40514e;
+  color: #fff;
+  background-color: #0091ad;
+  border-color: #0091ad;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -92,11 +74,39 @@ a.facebook:hover {
 }
 
 .submit:hover {
-  background-color: #0091ad;
+  background-color: #057186;
+  opacity: 80%;
   color: white;
 }
 
 .submit:active {
   position: relative;
   top: 1px;
+}
+
+.red{
+  color:red;
+}
+
+/*This is the footer style*/
+.last-container {
+  background-color: #0091ad;
+  text-align: center;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.facebook {
+  text-decoration: none;
+  color: #40514e;
+}
+
+a.facebook:hover {
+  text-decoration: none;
+  color: white;
 }

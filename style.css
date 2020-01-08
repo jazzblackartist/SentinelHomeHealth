@@ -3,41 +3,58 @@ body {
   color: #40514e;
   margin: 0px;
 }
-.border{
-background-color: #eae8e8;
-padding:15px;
-height: 86px;
-
-}
-.banner{
-  position:relative;
-  margin-bottom:150px;
-}
-.home {
-
-  float:left;
-width:60%;
-padding:0 20px;
-}
 
 p {
   line-height: 2;
 }
 
-.second-container {
-  width: auto ;
-    max-width: 100% ;
-    height: auto ;
+/*This is the banner style for the site*/
+.first-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
-.border-text{
+
+.banner {
+  position: relative;
+  margin: 30px;
+  width: 100%;
+}
+
+.border-text {
   color: white;
   position: absolute;
-  top:656px;
+  top: 837px;
   left: 137px;
   font-size: 50px;
-
+  width: 100%;
 }
-.third-container{
+
+/*This is the style of the logo*/
+.logo {
+  width: auto;
+  max-width: 40%;
+  height: auto;
+}
+
+/*This is the social icon*/
+.facebook-icon {
+  width: 35px;
+  margin-left: 40px;
+}
+
+/*This is the style for the main content*/
+.second-container {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.third-container {
   display: inline-block;
   width: auto;
   height: auto;
@@ -45,48 +62,35 @@ p {
   background-color: #eae8e8;
   margin-top: 90px;
   margin: 50px !important;
-    display: inline-block !important;
+  display: inline-block !important;
 }
 
-.image1{
+.image1 {
   display: inline-block;
-  margin:50px;
+  margin: 50px;
 }
-.image2{
-  display: inline-block;
-  margin:50px;
-}
-.image3{
-  display: inline-block;
-  margin:50px;
 
-}
-.image4{
+.image2 {
   display: inline-block;
-  margin:40px;
+  margin: 50px;
 }
-.care{
 
+.image3 {
   display: inline-block;
-float: left;
-width: 60%;
-padding: 0 20px;
-margin-left: 10%;
+  margin: 50px;
 }
-.home-text{
-  width: 600px;
+
+.image4 {
   display: inline-block;
-  left: 1043px;
-  top: 80px;
+  margin: 40px;
 }
-.home-container{
-  display: inline-block;
-}
+
+/*This is the style of the footer*/
 .last-container {
   background-color: #0091ad;
-text-align:center;
-padding:10px;
-margin-top:150px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 150px;
 }
 
 .copyright {
@@ -94,22 +98,11 @@ margin-top:150px;
 }
 
 .facebook {
-text-decoration: none;
-color: #40514e;
+  text-decoration: none;
+  color: #40514e;
 }
 
 a.facebook:hover {
   text-decoration: none;
   color: white;
-}
-
-.logo {
-  width: auto;
-      max-width: 40%;
-      height: auto;
-}
-
-.facebook-icon {
-  width: 35px;
-  margin-left: 40px;
 }

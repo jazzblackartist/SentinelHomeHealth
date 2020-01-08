@@ -4,11 +4,24 @@ body {
   margin: 0;
 }
 
-.second-container {
-  margin-left: 15%;
-  margin-right: 15%;
+p {
+  line-height: 2;
 }
 
+/*This is the style for the logo*/
+.logo {
+  width: auto;
+  max-width: 40%;
+  height: auto;
+}
+
+/*This is the style for the social icon*/
+.facebook-icon {
+  width: 35px;
+  margin-left: 40px;
+}
+
+/*This is the style for the banner*/
 .lady_nurse {
   width: 400px;
   float: right;
@@ -16,21 +29,24 @@ body {
   margin-bottom: 30px;
 }
 
-p {
-  line-height: 2;
+/*This is the style for the main content of the site*/
+.second-container {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .about {
-  padding:30px;
-  text-align:center;
+  padding: 30px;
+  text-align: center;
   margin-bottom: 100px;
 }
 
+/*This is the style for the footer*/
 .last-container {
   background-color: #0091ad;
-text-align:center;
-padding:10px;
-margin-top:170px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 170px;
 }
 
 .copyright {
@@ -38,20 +54,11 @@ margin-top:170px;
 }
 
 .facebook {
-text-decoration: none;
-color: #40514e;
-}
-a.facebook:hover{
   text-decoration: none;
-  color: white;
+  color: #40514e;
 }
 
-.logo {
-  width: auto;
-      max-width: 40%;
-      height: auto;
-}
-.facebook-icon{
-  width: 35px;
-  margin-left: 40px;
+a.facebook:hover {
+  text-decoration: none;
+  color: white;
 }

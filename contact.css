@@ -4,59 +4,29 @@ body {
   margin: 0px;
 }
 
-.contact_us {
-  padding: 30px;
-  text-align: center;
-  margin-bottom: 100px;
-}
-
 p {
   line-height: 2;
 }
 
-.second-container-contact {
-  margin-left: 15%;
-  margin-right: 15%;
-  position: relative;
-}
-.ct-form{
-  float:left;
-  width:60%;
-  padding:0 20px;
-}
-
-.last-container {
-  background-color: #0091ad;
-  text-align: center;
-  padding: 10px;
-  margin-top: 821px;
-}
-
-.copyright {
-  margin-bottom: 0;
-}
-
-.facebook {
-  text-decoration: none;
-  color: #40514e;
-}
-
-a.facebook:hover {
-  text-decoration: none;
-  color: white;
-}
-
+/*This is the style for the logo*/
 .logo {
   width: auto;
       max-width: 40%;
       height: auto;
 }
 
+/*This is the style for the social icon*/
 .facebook-icon {
   width: 35px;
   margin-left: 40px;
 }
 
+/*This is the style for the main content of the site*/
+.contact{
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+}
 .contact-text {
   display: inline-block;
   margin-right: 240px;
@@ -66,33 +36,20 @@ a.facebook:hover {
   width: 332px;
 }
 
-.contact-form {
-  display: inline-block;
-  position: absolute;
-  right: 0px;
-  width: 500px;
-}
-
-.ct-container {
-  width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
 .red {
   color: red;
   padding-left: 5px;
 }
 
 .submit {
-  background-color: #eae8e8;
-  color: #40514e;
+  color: #fff;
+  background-color: #0091ad;
+  border-color: #0091ad;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   font-size: 17px;
   font-weight: bold;
   font-style: normal;
@@ -106,6 +63,29 @@ a.facebook:hover {
 }
 
 .submit:hover {
+  background-color: #057186;
+  opacity: 80%;
+  color: white;
+}
+
+/*This is the style for the footer*/
+.last-container {
   background-color: #0091ad;
+  text-align: center;
+  padding: 10px;
+  margin-top: 150px;
+}
+
+.copyright {
+  margin-bottom: 0;
+}
+
+.facebook {
+  text-decoration: none;
+  color: #40514e;
+}
+
+a.facebook:hover {
+  text-decoration: none;
   color: white;
 }
