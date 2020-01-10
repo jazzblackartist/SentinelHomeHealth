@@ -16,9 +16,16 @@ p {
 }
 
 /*This is the style for the social icon*/
-.facebook-icon {
-  width: 35px;
-  margin-left: 40px;
+.fab:hover{
+  color: #0091ad;
+}
+.fa-2x {
+    font-size: 1.5em !important;
+}
+
+/* Navbar */
+.nav-link{
+  font-size: 1.2rem ;
 }
 
 /*This is the style for the main content of the site*/
