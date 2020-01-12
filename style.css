@@ -8,16 +8,14 @@ p {
   line-height: 2;
 }
 
-
 /*This is the banner style for the site*/
 .first-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  position: relative;
+  text-align: left;
 }
 
 .banner {
@@ -29,10 +27,18 @@ p {
 .border-text {
   color: white;
   position: absolute;
-  top: 837px;
-  left: 137px;
-  font-size: 50px;
-  width: 100%;
+  top: 247px;
+  left: 224px;
+  font-size: 3rem;
+}
+@media (max-width:1800px){
+  .border-text{
+  font-size: 2rem;
+  top: 120px;
+  left: 130px;
+
+  }
+
 }
 
 /*This is the style of the logo*/
@@ -43,16 +49,17 @@ p {
 }
 
 /*This is the social icon*/
-.fab:hover{
+.fab:hover {
   color: #0091ad;
 }
+
 .fa-2x {
-    font-size: 1.5em !important;
+  font-size: 1.5em !important;
 }
 
 /* Navbar */
-.nav-link{
-  font-size: 1.2rem ;
+.nav-link {
+  font-size: 1.2rem;
 }
 
 /*This is the style for the main content*/

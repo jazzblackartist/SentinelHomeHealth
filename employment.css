@@ -117,3 +117,11 @@ a.facebook:hover {
   text-decoration: none;
   color: white;
 }
+.submission{
+  border: 1px dashed;
+  text-align: center;
+  padding: 20px;
+}
+.fa-2x{
+  font-size: 2rem;
+}
